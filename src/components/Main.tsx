@@ -1,11 +1,8 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import profilePhoto from '../assets/images/profile.jpg';
 import '../assets/styles/Main.scss';
-
-const avatarSvg = `data:image/svg+xml;utf8,${encodeURIComponent(
-  '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300"><rect width="300" height="300" fill="#5000ca"/><text x="150" y="150" font-family="Arial, sans-serif" font-size="110" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central">AZ</text></svg>'
-)}`;
 
 function Main() {
 
@@ -13,7 +10,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src={avatarSvg} alt="Avatar" />
+          <img src={profilePhoto} alt="Anum Zafar" />
         </div>
         <div className="content">
           <div className="social_icons">
